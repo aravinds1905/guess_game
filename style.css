@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+body {
+    background: #673AB7;
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);
+    background: linear-gradient(to right, #512DA8, #673AB7);
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family:Georgia, 'Times New Roman', Times, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.container h3{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 30px;
+}
+.container #start{
+    width:150px;
+    height: 50px;
+    border-radius: 30px;
+}
+#start:hover{
+    background:linear-gradient(to left, #00c3f9, #b9ff80);
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: ease-out 0.3s;
+}
